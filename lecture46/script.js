@@ -4,6 +4,10 @@ alert("hello")
 const sum=(a,b)=>{
     console.log("Yes I am running " +(a+b))
 }
+// setInterval(function() {
+//   alert("setinterval")
+// }, 3000)
+
 setTimeout(sum,5000,1,2);// here 1 and 2 are arguments which we pass and it returns timmer id 
 let a=setTimeout(function (){
 alert("Hi i am within settimeout")
