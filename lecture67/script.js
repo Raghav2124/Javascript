@@ -29,3 +29,20 @@ const mainFunc = async () => {
 }
 
 mainFunc()
+// post request is used to send large data in server as get has aome limit to send dat using the url
+// let options={
+//     method :"POST",
+//     headers:{
+//         "Content-type":"application/json"
+//     },
+//     body: JSON.stringify({
+//         title:"Harry",
+//         body: "bhai",
+//         userId:1100,
+//     })
+// }
+// fetch('',options).then((response)=>{
+//     return response.json()
+// }).then((json)=>{
+//     console.log(json)
+// })
